@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1300px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.burgerMenu {
+    cursor: pointer;
+}
+
+.burgerBar {
+    width: 5rem;
+    height: 0.1875rem;
+    background: #222;
+    margin: 1rem;
+}
