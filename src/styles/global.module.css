@@ -1,0 +1,61 @@
+/* === GLOBAL === */
+.section {
+    padding: 12% 0;
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
+
+/* === INTRO === */
+
+.introSection {
+    padding: 7% 0 10% 0%;
+}
+
+.headTitle {
+    font-size: 4rem;
+}
+
+.arrowHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.arrowIcon {
+    font-size: 2rem;
+}
+
+/* === ABOUT === */
+.skillsHolder {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* === PROJECTS === */
+.imageContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.imageContainer div {
+    width: 100%;
+    height: 20rem;
+    background: #333;
+    transition: all 300ms ease-in-out;
+}
+
+.imageContainer div:hover {
+    /* background: rgb(202, 202, 202); */
+    background: #FDCD28;
+}
