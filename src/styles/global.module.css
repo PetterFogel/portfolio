@@ -59,3 +59,27 @@
     /* background: rgb(202, 202, 202); */
     background: #FDCD28;
 }
+
+/* === CONTACT === */
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialHolder div {
+    background: #333;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 1.2rem 0rem;
+}
+
+/* === FOOTER === */
+.footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: 1rem
+}
