@@ -1,4 +1,8 @@
 import classes from "../../styles/global.module.css";
+import { FaFacebookF, FaLinkedinIn,  } from "react-icons/fa";
+import { VscGithubInverted } from "react-icons/vsc";
+import { SiGmail } from "react-icons/si";
+
 
 function Contact() {
   return (
@@ -18,10 +22,18 @@ function Contact() {
           <p className={classes.paragraph}>+46 705773264</p>
         </div>
         <div className={classes.socialHolder}>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className={classes.socialMediaIcons}>
+            <VscGithubInverted />
+          </div>
+          <div className={classes.socialMediaIcons}>
+            <FaFacebookF />
+          </div>
+          <div className={classes.socialMediaIcons}>
+            <SiGmail />
+          </div>
+          <div className={classes.socialMediaIcons}>
+            <FaLinkedinIn />
+          </div>
         </div>
       </div>
     </section>
