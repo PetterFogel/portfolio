@@ -3,7 +3,7 @@ import { animated, useSpring } from "react-spring";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 
 function IntroContent() {
-  const styles = useSpring({
+  const fadeIn = useSpring({
     from: {
       opacity: 0,
       marginTop: 300,
@@ -13,12 +13,13 @@ function IntroContent() {
       marginTop: 0,
     },
     config: {
-      duration: 1000,
+      duration: 1200,
     },
   });
+
   return (
     <section className={classes.section}>
-      <animated.div style={styles}>
+      <animated.div style={fadeIn}>
         <h1 className={classes.sectionTitle}>
           Hello, World!
           <br />
