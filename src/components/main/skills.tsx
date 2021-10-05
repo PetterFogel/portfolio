@@ -4,13 +4,9 @@ function Skills() {
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>What I do</h2>
-      <br />
-      <br />
       <p className={classes.paragraph}>
         These are my skills, willing to learn more.{" "}
       </p>
-      <br />
-      <br />
       <div className={classes.skillsHolder}>
         <div>
           <p className={classes.paragraph}>HTML5</p>
