@@ -1,6 +1,15 @@
 import classes from "../../styles/global.module.css";
 
 function Skills() {
+  const skillList: string[] = [
+    "HTML5",
+    "CSS3",
+    "Javascript",
+    "TypeScript",
+    "React",
+    "Node",
+  ];
+
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>What I do</h2>
@@ -8,16 +17,13 @@ function Skills() {
         These are my skills, willing to learn more.{" "}
       </p>
       <div className={classes.skillsHolder}>
-        <div>
-          <p className={classes.paragraph}>HTML5</p>
-          <p className={classes.paragraph}>CSS3</p>
-          <p className={classes.paragraph}>JavaScript</p>
-        </div>
-        <div>
-          <p className={classes.paragraph}>TypeScript</p>
-          <p className={classes.paragraph}>React</p>
-          <p className={classes.paragraph}>Node.js</p>
-        </div>
+        {skillList.map((skill, index) => (
+          <div key={index} className={classes.skillItemHolder}>
+            <p>
+              {skill}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );
