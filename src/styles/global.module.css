@@ -41,12 +41,20 @@
     font-size: 2rem;
 }
 
-/* === ABOUT === */
+/* === SKILLS === */
 .skillsHolder {
     width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skillItemHolder {
+    /* background: #FDCD28; */
+    border: 1px solid #333;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 /* === PROJECTS === */
