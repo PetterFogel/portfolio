@@ -6,10 +6,12 @@
 .sectionTitle {
     font-size: 3rem;
     font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 .paragraph {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 /* === INTRO === */
@@ -20,6 +22,12 @@
 
 .headTitle {
     font-size: 4rem;
+    font-weight: 400;
+}
+
+.subHeadTitle {
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 .arrowHolder {
