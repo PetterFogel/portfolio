@@ -8,6 +8,7 @@ function Navigation() {
         <div className={classes.burgerBar}></div>
         <div className={classes.burgerBar}></div>
       </div>
+      <div className={classes.fixedEmail}>petterfogel96@gmail.com</div>
     </header> 
   );
 }
