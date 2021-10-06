@@ -4,7 +4,7 @@
 }
 
 .sectionTitle {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     margin-bottom: 2rem;
 }
@@ -17,7 +17,7 @@
 /* === INTRO === */
 
 .introSection {
-    padding: 7% 0 10% 0%;
+    padding: 5% 0 10% 0%;
 }
 
 .headTitle {
@@ -26,7 +26,7 @@
 }
 
 .subHeadTitle {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
 }
 
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 
 .arrowIcon {
@@ -109,9 +109,6 @@
 
 /* === FOOTER === */
 .footer {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
-    margin: 1rem
+    margin: 0.5rem
 }
