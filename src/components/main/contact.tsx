@@ -16,20 +16,38 @@ function Contact() {
           <p className={classes.paragraph}>+46 705773264</p>
         </div>
         <div className={classes.socialHolder}>
-          <div className={classes.socialMediaIcons}>
+          <a
+            className={classes.socialMediaIcons}
+            href="https://github.com/PetterFogel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <VscGithubInverted />
-          </div>
-          <div className={classes.socialMediaIcons}>
+          </a>
+
+          <a
+            className={classes.socialMediaIcons}
+            href="https://www.linkedin.com/in/petter-fogel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedinIn />
-          </div>
-          <div className={classes.socialMediaIcons}>
-            <a className={classes.mailIcon} href="mailto:petterfogel96@gmail.com">
-              <SiGmail />
-            </a>
-          </div>
-          <div className={classes.socialMediaIcons}>
+          </a>
+          <a
+            className={classes.socialMediaIcons}
+            href="mailto:petterfogel96@gmail.com"
+          >
+            <SiGmail />
+          </a>
+
+          <a
+            className={classes.socialMediaIcons}
+            href="https://www.facebook.com/petter.fogel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebookF />
-          </div>
+          </a>
         </div>
       </div>
     </section>
