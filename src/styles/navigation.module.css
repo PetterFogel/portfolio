@@ -36,6 +36,12 @@
     cursor: pointer;
 }
 
+.a {
+    text-decoration: none;
+    outline: none;
+    color: #222;
+}
+
 @media (max-width: 1300px) {
     .fixedEmail {
         right: -50px;

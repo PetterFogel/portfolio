@@ -23,7 +23,9 @@ function Contact() {
             <FaLinkedinIn />
           </div>
           <div className={classes.socialMediaIcons}>
-            <SiGmail />
+            <a className={classes.mailIcon} href="mailto:petterfogel96@gmail.com">
+              <SiGmail />
+            </a>
           </div>
           <div className={classes.socialMediaIcons}>
             <FaFacebookF />

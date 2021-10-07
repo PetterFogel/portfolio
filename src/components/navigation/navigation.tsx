@@ -8,8 +8,10 @@ function Navigation() {
         <div className={classes.burgerBar}></div>
         <div className={classes.burgerBar}></div>
       </div>
-      <div className={classes.fixedEmail}>petterfogel96@gmail.com</div>
-    </header> 
+      <div className={classes.fixedEmail}>
+        <a className={classes.a} href="mailto:petterfogel96@gmail.com">petterfogel96@gmail.com</a>
+      </div>
+    </header>
   );
 }
 
