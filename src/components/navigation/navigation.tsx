@@ -1,6 +1,6 @@
 import classes from "../../styles/navigation.module.css";
 
-function Navigation() {
+const Navigation = () => {
   return (
     <header className={classes.header}>
       <h2 className={classes.logo}>Petter</h2>

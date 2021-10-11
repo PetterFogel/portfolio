@@ -2,7 +2,7 @@ import classes from "../../styles/global.module.css";
 import { animated, useSpring } from "react-spring";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 
-function IntroContent() {
+const IntroContent = () => {
   const fadeIn = useSpring({
     from: {
       opacity: 0,
@@ -22,7 +22,7 @@ function IntroContent() {
       <animated.div style={fadeIn}>
         <h2 className={classes.subHeadTitle}>Hello, World!</h2>
         <h1 className={classes.headTitle}>My name is Petter Fogel.</h1>
-        <h2>
+        <h2 className={classes.subHeadTitle}>
           I am a Front-End developer student with passion for creative solutions
           and design.
         </h2>

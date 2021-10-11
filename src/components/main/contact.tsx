@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { SiGmail } from "react-icons/si";
 
-function Contact() {
+const Contact = () => {
   return (
     <section className={classes.section}>
       <div className={classes.contactContainer}>

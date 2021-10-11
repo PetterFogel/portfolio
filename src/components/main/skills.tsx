@@ -1,6 +1,6 @@
 import classes from "../../styles/global.module.css";
 
-function Skills() {
+const  Skills = () => {
   const skillList: string[] = [
     "HTML5",
     "CSS3",

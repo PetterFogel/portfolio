@@ -5,7 +5,7 @@ import Intro from "../main/intro";
 import Projects from "../main/Projects";
 import Skills from "../main/skills";
 
-function MainContent() {
+const MainContent = () => {
   return (
     <main className={classes.main}>
       <Intro />

@@ -1,6 +1,6 @@
 import classes from "../../styles/global.module.css";
 
-function Projects() {
+const Projects = () => {
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>What I've done</h2>

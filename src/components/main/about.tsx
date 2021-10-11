@@ -1,6 +1,6 @@
 import classes from "../../styles/global.module.css";
 
-function About() {
+const About = () => {
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>Who am I</h2>
