@@ -1,10 +1,10 @@
-import { Fragment } from 'react';
+import { FC, Fragment } from 'react';
 import './App.css';
 import Navigation from './components/navigation/navigation';
 import MainContent from './components/pages/mainContent';
 import classes from './styles/global.module.css';
 
-function App() {  
+const App: FC = () => {  
   return (
     <Fragment>
       <Navigation />

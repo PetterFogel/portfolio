@@ -1,6 +1,7 @@
+import { FC } from "react";
 import classes from "../../styles/global.module.css";
 
-const Projects = () => {
+const Projects: FC = () => {
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>What I've done</h2>

@@ -1,8 +1,9 @@
 import classes from "../../styles/global.module.css";
 import { animated, useSpring } from "react-spring";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
+import { FC } from "react";
 
-const IntroContent = () => {
+const IntroContent: FC = () => {
   const fadeIn = useSpring({
     from: {
       opacity: 0,

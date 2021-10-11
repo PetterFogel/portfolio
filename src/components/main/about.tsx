@@ -1,6 +1,7 @@
+import { FC } from "react";
 import classes from "../../styles/global.module.css";
 
-const About = () => {
+const About: FC = () => {
   return (
     <section className={classes.section}>
       <h2 className={classes.sectionTitle}>Who am I</h2>

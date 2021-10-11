@@ -2,8 +2,9 @@ import classes from "../../styles/global.module.css";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { SiGmail } from "react-icons/si";
+import { FC } from "react";
 
-const Contact = () => {
+const Contact: FC = () => {
   return (
     <section className={classes.section}>
       <div className={classes.contactContainer}>
