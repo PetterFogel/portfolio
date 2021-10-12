@@ -1,121 +1,125 @@
 /* === GLOBAL === */
 .section {
-    padding: 12% 0;
+  padding: 12% 0;
 }
 
 .sectionTitle {
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .paragraph {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .a {
-    color: #222;
-    font-size: 1.2rem;
+  color: #222;
+  font-size: 1.2rem;
 }
 
 .flexRow {
-    display: flex;
+  display: flex;
 }
 
 /* === INTRO === */
 
 .introSection {
-    padding: 5% 0 10% 0%;
+  padding: 5% 0 10% 0%;
 }
 
 .headTitle {
-    font-size: 4rem;
-    font-weight: 400;
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 .subHeadTitle {
-    font-size: 4rem;
-    font-weight: 300;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .arrowHolder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 .arrowIcon {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* === SKILLS === */
 .skillsHolder {
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 1rem;
-    margin-top: 2rem;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .skillItemHolder {
-    /* background: #FDCD28; */
-    border: 1px solid #333;
-    text-align: center;
-    padding: 0.5rem;
+  /* background: #FDCD28; */
+  border: 1px solid #333;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /* === PROJECTS === */
 .imageContainer {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 2fr);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 2fr);
 }
 
-.imageContainer div {
-    width: 100%;
-    height: 20rem;
-    background: #333;
-    transition: all 300ms ease-in-out;
+.imageHolder {
+  width: 100%;
+  height: 100%;
 }
 
-.imageContainer div:hover {
-    /* background: rgb(202, 202, 202); */
-    background: #FDCD28;
+.image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 300ms ease-in-out;
+}
+
+.image:hover {
+  background: #fdcd28;
 }
 
 /* === CONTACT === */
 
 .contactContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .socialMediaIcons {
-    background: #333;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    margin: 1.2rem 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.6rem;
-    color: #fafafa;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
-    text-decoration: none;
-    outline: none;
+  background: #333;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  margin: 1.2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: #fafafa;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+  outline: none;
 }
 
 .socialMediaIcons:hover {
-    background: #FDCD28;
-    transform: scale(1.1)
+  background: #fdcd28;
+  transform: scale(1.1);
 }
 
 /* === FOOTER === */
 .footer {
-    text-align: center;
-    margin: 0.5rem
+  text-align: center;
+  margin: 0.5rem;
 }
