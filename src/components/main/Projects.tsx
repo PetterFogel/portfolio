@@ -23,15 +23,31 @@ const Projects: FC = () => {
       <div className={classes.imageContainer}>
         <div className={classes.imageHolder}>
           <img className={classes.image} src={movieBox} alt="movie-box" />
+          <div className={classes.overlay}>
+            <p>Movie Api</p>
+            <div>
+              <button className={classes.overlayBtns}>Netlify</button>
+              <button className={classes.overlayBtns}>Repo</button>
+            </div>
+          </div>
         </div>
-        <div>
+        <div className={classes.imageHolder}>
           <img className={classes.image} src={shoeway} alt="movie-box" />
+          <div className={classes.overlay}>
+            <p>Overlay Test</p>
+          </div>
         </div>
-        <div>
+        <div className={classes.imageHolder}>
           <img className={classes.image} src={movieBox} alt="movie-box" />
+          <div className={classes.overlay}>
+            <p>Overlay Test</p>
+          </div>
         </div>
-        <div>
+        <div className={classes.imageHolder}>
           <img className={classes.image} src={movieBox} alt="movie-box" />
+          <div className={classes.overlay}>
+            <p>Overlay Test</p>
+          </div>
         </div>
       </div>
     </section>
