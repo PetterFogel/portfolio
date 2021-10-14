@@ -24,10 +24,14 @@ const Projects: FC = () => {
         <div className={classes.imageHolder}>
           <img className={classes.image} src={movieBox} alt="movie-box" />
           <div className={classes.overlay}>
-            <p>Movie Api</p>
-            <div>
-              <button className={classes.overlayBtns}>Netlify</button>
-              <button className={classes.overlayBtns}>Repo</button>
+            <p>
+              A project to fetch box-office movies from the tmdb-api. Users can
+              render popular and upcoming movies and also add them to the
+              favoritelist.
+            </p>
+            <div className={classes.btnHolder}>
+              <button className={classes.btn}>Netlify</button>
+              <button className={classes.btn}>Repo</button>
             </div>
           </div>
         </div>
