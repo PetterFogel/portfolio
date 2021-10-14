@@ -30,27 +30,50 @@ const Projects: FC = () => {
               favoritelist.
             </p>
             <div className={classes.btnHolder}>
-              <button className={classes.btn}>Netlify</button>
-              <button className={classes.btn}>Repo</button>
+              <a
+                href="https://moviebox-api.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={classes.btn}>Netlify</button>
+              </a>
+
+              <a
+                href="https://github.com/PetterFogel/movies-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={classes.btn}>Repo</button>
+              </a>
             </div>
           </div>
         </div>
         <div className={classes.imageHolder}>
-          <img className={classes.image} src={shoeway} alt="movie-box" />
+          <img className={classes.image} src={shoeway} alt="shoeway" />
           <div className={classes.overlay}>
-            <p>Overlay Test</p>
-          </div>
-        </div>
-        <div className={classes.imageHolder}>
-          <img className={classes.image} src={movieBox} alt="movie-box" />
-          <div className={classes.overlay}>
-            <p>Overlay Test</p>
-          </div>
-        </div>
-        <div className={classes.imageHolder}>
-          <img className={classes.image} src={movieBox} alt="movie-box" />
-          <div className={classes.overlay}>
-            <p>Overlay Test</p>
+            <p>
+              School project of a e-commerce website that renders a list of shoe
+              products. Users can add products to the checkout, fill in personal
+              details and payment methods and finally get a receipt from their
+              purchase.
+            </p>
+            <div className={classes.btnHolder}>
+              <a
+                href="https://shoeway.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={classes.btn}>Netlify</button>
+              </a>
+
+              <a
+                href="https://github.com/PetterFogel/react-e-store"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={classes.btn}>Repo</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
