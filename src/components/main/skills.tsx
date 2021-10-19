@@ -2,6 +2,7 @@ import { FC } from "react";
 import classes from "../../styles/global.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { skillList } from "../data/skillsListData";
 
 const Skills: FC = () => {
   AOS.init({
@@ -10,15 +11,6 @@ const Skills: FC = () => {
     easing: "ease",
     once: true,
   });
-
-  const skillList: string[] = [
-    "HTML5",
-    "CSS3",
-    "Javascript",
-    "TypeScript",
-    "React",
-    "Node",
-  ];
 
   return (
     <section className={classes.section}>
