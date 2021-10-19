@@ -33,6 +33,6 @@ const IntroContent: FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default IntroContent;

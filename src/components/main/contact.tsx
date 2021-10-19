@@ -3,8 +3,17 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { SiGmail } from "react-icons/si";
 import { FC } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact: FC = () => {
+  AOS.init({
+    offset: 50,
+    duration: 1000,
+    // easing: "ease",
+    once: true,
+  });
+
   return (
     <section className={classes.section}>
       <div className={classes.contactContainer}>
@@ -22,6 +31,7 @@ const Contact: FC = () => {
             href="https://github.com/PetterFogel"
             target="_blank"
             rel="noopener noreferrer"
+            data-aos="fade-up"
           >
             <VscGithubInverted />
           </a>
@@ -31,12 +41,14 @@ const Contact: FC = () => {
             href="https://www.linkedin.com/in/petter-fogel/"
             target="_blank"
             rel="noopener noreferrer"
+            data-aos="fade-up"
           >
             <FaLinkedinIn />
           </a>
           <a
             className={classes.socialMediaIcons}
             href="mailto:petterfogel96@gmail.com"
+            data-aos="fade-up"
           >
             <SiGmail />
           </a>
@@ -46,6 +58,7 @@ const Contact: FC = () => {
             href="https://www.facebook.com/petter.fogel/"
             target="_blank"
             rel="noopener noreferrer"
+            data-aos="fade-up"
           >
             <FaFacebookF />
           </a>
@@ -53,6 +66,6 @@ const Contact: FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Contact;
