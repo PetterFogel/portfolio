@@ -24,7 +24,7 @@ const Projects: FC = () => {
             All my projects can be viewed at my&nbsp;
           </p>
           <a
-            className={classes.a}
+            className={classes.aLink}
             href="https://github.com/PetterFogel"
             target="_blank"
             rel="noopener noreferrer"
