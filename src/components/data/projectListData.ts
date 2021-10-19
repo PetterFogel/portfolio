@@ -2,7 +2,7 @@ import { Project } from "../models/project";
 import movieBox from "../../assets/movie-box.png";
 import shoeway from "../../assets/shoeway.png";
 
-export const ProjectList: Project[] = [
+export const ProjectListData: Project[] = [
   {
     img: movieBox,
     netlifyLink: "https://moviebox-api.netlify.app/",
