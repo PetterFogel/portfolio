@@ -10,10 +10,12 @@ const Navigation: FC = () => {
         <div className={classes.burgerBar}></div>
       </div>
       <div className={classes.fixedEmail}>
-        <a className={classes.a} href="mailto:petterfogel96@gmail.com">petterfogel96@gmail.com</a>
+        <a className={classes.aLink} href="mailto:petterfogel96@gmail.com">
+          petterfogel96@gmail.com
+        </a>
       </div>
     </header>
   );
-}
+};
 
 export default Navigation;
