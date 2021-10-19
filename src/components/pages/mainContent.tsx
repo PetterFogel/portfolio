@@ -3,7 +3,7 @@ import classes from "../../styles/mainContent.module.css";
 import About from "../main/about";
 import Contact from "../main/contact";
 import Intro from "../main/intro";
-import Projects from "../main/Projects";
+import Projects from "../main/projects/project";
 import Skills from "../main/skills";
 
 const MainContent: FC = () => {
@@ -12,10 +12,10 @@ const MainContent: FC = () => {
       <Intro />
       <About />
       <Skills />
-      <Projects />  
+      <Projects />
       <Contact />
     </main>
   );
-}
+};
 
 export default MainContent;
