@@ -2,7 +2,7 @@ import { FC } from "react";
 import classes from "../../styles/global.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { skillList } from "../data/skillsListData";
+import { skillList } from "../../data/skillsListData";
 
 const Skills: FC = () => {
   AOS.init({

@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import classes from "../../../styles/global.module.css";
-import { Project } from "../../models/project";
+import { Project } from "../../../models/project";
 
 type ProjectItemProps = {
   project: Project;

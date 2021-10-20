@@ -10,7 +10,6 @@ const Contact: FC = () => {
   AOS.init({
     offset: 50,
     duration: 1000,
-    // easing: "ease",
     once: true,
   });
 

@@ -3,7 +3,7 @@ import classes from "../../../styles/global.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProjectItem from "./projectItem";
-import { ProjectListData } from "../../data/projectListData";
+import { ProjectListData } from "../../../data/projectListData";
 
 const Projects: FC = () => {
   AOS.init({
