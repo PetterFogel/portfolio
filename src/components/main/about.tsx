@@ -1,22 +1,11 @@
 import { FC } from "react";
 import classes from "../../styles/global.module.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const About: FC = () => {
-  AOS.init({
-    offset: 100,
-    duration: 2000,
-    easing: "ease",
-    once: true,
-  });
-
   return (
     <section className={classes.section}>
-      <h2 data-aos="fade-right" className={classes.sectionTitle}>
-        Who am I
-      </h2>
-      <div data-aos="fade-up">
+      <h2 className={classes.sectionTitle}>Who am I</h2>
+      <div>
         <p className={classes.paragraph}>
           I’m a 25 year old based in Gothenburg Sweden. In september 2020, I
           started my education at Medieinstitutet to pursuit a career as a
