@@ -20,11 +20,31 @@
   cursor: pointer;
 }
 
-.burgerBar {
-  width: 4rem;
+.burgerBar1,
+.burgerBar2 {
+  width: 5rem;
   height: 0.1875rem;
   background: #222;
   margin: 1rem;
+  transition: all 300ms ease;
+}
+
+.burgerBar1Rotate {
+  width: 2.5rem;
+  height: 0.1875rem;
+  background: #222;
+  margin: 1rem;
+  transform: rotate(-45deg) translate(0px, 14px);
+  transition: all 300ms ease;
+}
+
+.burgerBar2Rotate {
+  width: 2.5rem;
+  height: 0.1875rem;
+  background: #222;
+  margin: 1rem;
+  transform: rotate(45deg) translate(0px, -14px);
+  transition: all 300ms ease;
 }
 
 .fixedEmail {
