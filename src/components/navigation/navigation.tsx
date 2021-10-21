@@ -1,23 +1,19 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import classes from "../../styles/navigation.module.css";
 
-const Navigation: FC = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+type NavigationProps = {
+  onBurgerMenuClick: () => void;
+};
 
-  const clickHandler = () => {
-    setIsOpen(!isOpen);
-  };
-
+const Navigation: FC<NavigationProps> = ({
+  onBurgerMenuClick,
+}: NavigationProps) => {
   return (
     <header className={classes.header}>
       <h2 className={classes.logo}>Petter</h2>
-      <div className={classes.burgerMenu} onClick={clickHandler}>
-        <div
-          className={isOpen ? classes.burgerBar1Rotate : classes.burgerBar1}
-        ></div>
-        <div
-          className={isOpen ? classes.burgerBar2Rotate : classes.burgerBar2}
-        ></div>
+      <div className={classes.burgerMenu} onClick={onBurgerMenuClick}>
+        <div className={classes.burgerBar1}></div>
+        <div className={classes.burgerBar2}></div>
       </div>
       <div className={classes.fixedEmail}>
         <a className={classes.aLink} href="mailto:petterfogel96@gmail.com">
