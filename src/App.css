@@ -5,7 +5,12 @@
 }
 
 body {
-    font-family: "Space Mono", monospace;
-    color: #222;
-    background: #fafafa;
-  }
+  font-family: "Space Mono", monospace;
+  color: #222;
+  background: #fafafa;
+}
+
+main {
+  width: 65%;
+  margin: auto;
+}
