@@ -59,17 +59,6 @@
   font-weight: 300;
 }
 
-.arrowHolder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-.arrowIcon {
-  font-size: 2rem;
-}
-
 /* === SKILLS === */
 .skillsHolder {
   width: 50%;
