@@ -1,6 +1,5 @@
 import classes from "../../styles/global.module.css";
 import { animated, useSpring } from "react-spring";
-import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { FC } from "react";
 
 const IntroContent: FC = () => {
@@ -28,9 +27,6 @@ const IntroContent: FC = () => {
           and design.
         </h2>
       </animated.div>
-      <div className={classes.arrowHolder}>
-        <HiOutlineArrowNarrowDown className={classes.arrowIcon} />
-      </div>
     </section>
   );
 };
