@@ -22,7 +22,7 @@ const About: FC = () => {
   }
 
   return (
-    <section ref={ref} className={classes.section}>
+    <section ref={ref} className={classes.section} id="about">
       <motion.div animate={animation} initial={{ opacity: 0, x: 100 }}>
         <h2 className={classes.sectionTitle}>Who am I</h2>
       </motion.div>

@@ -23,7 +23,7 @@ const Skills: FC = () => {
   }
 
   return (
-    <section ref={ref} className={classes.section}>
+    <section ref={ref} className={classes.section} id="skills">
       <motion.div animate={animation} initial={{ opacity: 0, x: -100 }}>
         <h2 className={classes.sectionTitle}>What I do</h2>
       </motion.div>

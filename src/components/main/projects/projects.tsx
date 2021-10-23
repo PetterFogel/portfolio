@@ -24,7 +24,7 @@ const Projects: FC = () => {
   }
 
   return (
-    <section ref={ref} className={classes.section}>
+    <section ref={ref} className={classes.section} id="projects">
       <motion.div animate={animation} initial={{ opacity: 0, x: 100 }}>
         <h2 className={classes.sectionTitle}>What I've done</h2>
       </motion.div>

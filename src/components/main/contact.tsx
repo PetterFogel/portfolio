@@ -6,7 +6,7 @@ import { FC } from "react";
 
 const Contact: FC = () => {
   return (
-    <section className={classes.section}>
+    <section id="contact" className={classes.section}>
       <div className={classes.contactContainer}>
         <div>
           <h2 className={classes.sectionTitle}>Get in touch</h2>

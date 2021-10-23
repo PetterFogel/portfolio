@@ -18,7 +18,7 @@ const IntroContent: FC = () => {
   });
 
   return (
-    <section className={classes.section}>
+    <section className={classes.section} id="intro">
       <animated.div style={fadeIn}>
         <h2 className={classes.subHeadTitle}>Hello, World!</h2>
         <h1 className={classes.headTitle}>My name is Petter Fogel.</h1>
