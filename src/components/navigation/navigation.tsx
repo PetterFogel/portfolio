@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-scroll";
 import classes from "../../styles/navigation.module.css";
 
 type NavigationProps = {
@@ -10,7 +11,11 @@ const Navigation: FC<NavigationProps> = ({
 }: NavigationProps) => {
   return (
     <header className={classes.header}>
-      <h2 className={classes.logo}>Petter</h2>
+      <h2 className={classes.logo}>
+        <Link to="intro" smooth={true} duration={1000}>
+          Petter
+        </Link>
+      </h2>
       <div className={classes.burgerMenu} onClick={onBurgerMenuClick}>
         <div className={classes.burgerBar1}></div>
         <div className={classes.burgerBar2}></div>
