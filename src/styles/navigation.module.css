@@ -120,3 +120,27 @@
     right: -50px;
   }
 }
+
+/* === MEDIA QUERIES === */
+@media (max-width: 750px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .header {
+    height: 7vh;
+    background: #fff;
+    z-index: 9999;
+  }
+
+  .fixedEmail {
+    display: none;
+  }
+
+  .burgerBar1,
+  .burgerBar2 {
+    width: 3rem;
+    height: 0.1875rem;
+    margin: 0.8rem;
+  }
+}

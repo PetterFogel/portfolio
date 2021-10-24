@@ -1,6 +1,15 @@
 /* === GLOBAL === */
+main {
+  width: 65%;
+  margin: auto;
+}
+
 .section {
-  padding: 12% 0;
+  padding: 15% 0;
+}
+
+.introSection {
+  margin-top: 3rem;
 }
 
 .sectionTitle {
@@ -29,7 +38,7 @@
   padding: 0.4rem 0.9rem;
   background: transparent;
   color: #222;
-  border: 2px solid #222;
+  border: 1px solid #222;
   font-size: 1rem;
   margin: 0.5rem;
   cursor: pointer;
@@ -73,9 +82,6 @@
   text-align: center;
   padding: 0.5rem;
   width: 10rem;
-}
-
-.skillItemHolder p {
   font-size: 0.9rem;
 }
 
@@ -125,6 +131,10 @@
   opacity: 1;
 }
 
+.infoText {
+  font-size: 1rem;
+}
+
 /* === CONTACT === */
 
 .contactContainer {
@@ -158,4 +168,107 @@
 .footer {
   text-align: center;
   margin: 0.5rem;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 1200px) {
+  .imageContainer {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .overlay {
+    padding: 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .socialHolder {
+    display: flex;
+  }
+
+  .socialMediaIcons {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .btn {
+    padding: 0.3rem 0.9rem;
+    font-size: 0.7rem;
+  }
+
+  .subHeadTitle,
+  .headTitle {
+    font-size: 2.7rem;
+  }
+
+  .introSection,
+  .section {
+    padding: 12% 1rem;
+  }
+
+  .skillsHolder {
+    grid-template-rows: repeat(2, 2fr);
+  }
+
+  .skillItemHolder {
+    width: 7rem;
+    font-size: 0.7rem;
+  }
+
+  .infoText {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 750px) {
+  main {
+    width: 100%;
+  }
+
+  .introSection,
+  .section {
+    padding: 12% 1rem;
+  }
+
+  .subHeadTitle,
+  .headTitle {
+    font-size: 2rem;
+  }
+
+  .socialMediaIcons {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillItemHolder {
+    width: 6rem;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .skillItemHolder {
+    width: 5rem;
+    font-size: 0.4rem;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    font-size: 0.7rem;
+  }
 }
