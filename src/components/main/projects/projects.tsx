@@ -32,7 +32,7 @@ const Projects: FC = () => {
         <div>
           <div className={classes.flexRow}>
             <p className={classes.paragraph}>
-              All my projects can be viewed at my&nbsp;
+              Some of my recent work. All my projects can be viewed at my&nbsp;
             </p>
             <a
               className={classes.aLink}

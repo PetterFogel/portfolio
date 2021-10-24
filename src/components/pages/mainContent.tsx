@@ -4,10 +4,11 @@ import Contact from "../main/contact";
 import Intro from "../main/intro";
 import Projects from "../main/projects/projects";
 import Skills from "../main/skills";
+import classes from "../../styles/navigation.module.css";
 
 const MainContent: FC = () => {
   return (
-    <main>
+    <main className={classes.main}>
       <Intro />
       <About />
       <Skills />

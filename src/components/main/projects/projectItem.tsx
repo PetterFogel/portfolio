@@ -11,7 +11,7 @@ const ProjectItem: FC<ProjectItemProps> = ({ project }: ProjectItemProps) => {
     <div className={classes.imageHolder}>
       <img className={classes.image} src={project.img} alt="movie-box" />
       <div className={classes.overlay}>
-        <p>{project.info}</p>
+        <p className={classes.infoText}>{project.info}</p>
         <div className={classes.btnHolder}>
           <a
             href={project.netlifyLink}
