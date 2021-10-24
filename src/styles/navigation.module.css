@@ -144,3 +144,35 @@
     margin: 0.8rem;
   }
 }
+
+@media (max-width: 600px) {
+  .modalContainer {
+    background: #fff;
+    box-shadow: 10px 10px 20px #ddd;
+    max-width: 700px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99999;
+    margin: auto;
+  }
+
+  .menuText {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .burgerBar1,
+  .burgerBar2 {
+    width: 2.5rem;
+    height: 0.1875rem;
+    margin: 0.6rem;
+  }
+}

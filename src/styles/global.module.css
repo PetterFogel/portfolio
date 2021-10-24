@@ -23,7 +23,8 @@ main {
   margin-bottom: 1rem;
 }
 
-.aLink {
+.aLink,
+.githubLink {
   color: #222;
   font-size: 1.2rem;
 }
@@ -213,10 +214,11 @@ main {
 
   .skillsHolder {
     grid-template-rows: repeat(2, 2fr);
+    gap: 0.5rem;
   }
 
   .skillItemHolder {
-    width: 7rem;
+    width: 7.5rem;
     font-size: 0.7rem;
   }
 
@@ -264,7 +266,8 @@ main {
     font-size: 0.4rem;
   }
 
-  .paragraph {
+  .paragraph,
+  .githubLink {
     font-size: 0.9rem;
   }
 

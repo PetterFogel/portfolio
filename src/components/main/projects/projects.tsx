@@ -33,15 +33,15 @@ const Projects: FC = () => {
           <div className={classes.flexRow}>
             <p className={classes.paragraph}>
               Some of my recent work. All my projects can be viewed at my&nbsp;
+              <a
+                className={classes.githubLink}
+                href="https://github.com/PetterFogel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.
+              </a>
             </p>
-            <a
-              className={classes.aLink}
-              href="https://github.com/PetterFogel"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github.
-            </a>
           </div>
           <div className={classes.imageContainer}>
             {ProjectListData.map((project, index) => (
