@@ -15,6 +15,6 @@ export const ProjectListData: Project[] = [
     netlifyLink: "https://shoeway.netlify.app/",
     repoLink: "https://github.com/PetterFogel/react-e-store",
     alt: "shoeway",
-    info: "School project of a e-commerce website that renders a list of shoeproducts. Users can add products to the checkout, fill in personaldetails and payment methods and finally get a receipt from theirpurchase.",
+    info: "School project of a e-commerce website that renders a list of shoe products. Users can add products to the checkout, fill in personaldetails and payment methods and finally get a receipt from theirpurchase.",
   },
 ];
