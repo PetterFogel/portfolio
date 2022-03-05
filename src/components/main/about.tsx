@@ -34,7 +34,7 @@ const About: FC = () => {
             frontend developer.
           </p>
           <p className={classes.paragraph}>
-            I’v always been creative but I never really knew how to to use these
+            I’v always been creative but I never really knew how to use these
             skills. That was until I found my new passion of web development.
           </p>
         </div>
