@@ -6,7 +6,7 @@ import poster from "../assets/poster.png";
 export const ProjectListData: Project[] = [
   {
     img: poster,
-    netlifyLink: "test",
+    netlifyLink: "",
     repoLink: "https://github.com/PetterFogel/json-server-ecommerce",
     alt: "poster",
     info: "This is a e-commerce project created with React, TypeScript and json-server package to fetch and manage api calls with redux-toolkit.",
