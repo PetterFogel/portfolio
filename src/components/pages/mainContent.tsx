@@ -12,8 +12,8 @@ const MainContent: FC = () => {
     <main className={classes.main}>
       <Intro />
       <About />
-      <Internship />
       <Skills />
+      <Internship />
       <Projects />
       <Contact />
     </main>
