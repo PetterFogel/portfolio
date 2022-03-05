@@ -22,7 +22,7 @@ export const Internship: FC = () => {
   }
 
   return (
-    <section ref={ref} className={classes.section} id="about">
+    <section ref={ref} className={classes.section} id="internship">
       <motion.div animate={animation} initial={{ opacity: 0, x: 100 }}>
         <h2 className={classes.sectionTitle}>Internship</h2>
       </motion.div>
