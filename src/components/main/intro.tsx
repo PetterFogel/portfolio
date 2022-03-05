@@ -23,8 +23,8 @@ const IntroContent: FC = () => {
         <h2 className={classes.subHeadTitle}>Hello, World!</h2>
         <h1 className={classes.headTitle}>My name is Petter Fogel.</h1>
         <h2 className={classes.subHeadTitle}>
-          I am a Front-End developer student with passion for creative solutions
-          and design.
+          I am a software developer with passion for creative solutions and
+          design.
         </h2>
       </animated.div>
     </section>

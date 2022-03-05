@@ -5,12 +5,14 @@ import Intro from "../main/intro";
 import Projects from "../main/projects/projects";
 import Skills from "../main/skills";
 import classes from "../../styles/navigation.module.css";
+import { Internship } from "../main/internship";
 
 const MainContent: FC = () => {
   return (
     <main className={classes.main}>
       <Intro />
       <About />
+      <Internship />
       <Skills />
       <Projects />
       <Contact />
