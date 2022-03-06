@@ -42,22 +42,22 @@ const MenuModal: FC<MenuModalProps> = ({
               </li>
               <li className={classes.menuText}>
                 <Link
-                  to="internship"
-                  onClick={onCloseModalClick}
-                  smooth={true}
-                  duration={1000}
-                >
-                  Internship
-                </Link>
-              </li>
-              <li className={classes.menuText}>
-                <Link
                   to="skills"
                   onClick={onCloseModalClick}
                   smooth={true}
                   duration={1000}
                 >
                   What I do
+                </Link>
+              </li>
+              <li className={classes.menuText}>
+                <Link
+                  to="internship"
+                  onClick={onCloseModalClick}
+                  smooth={true}
+                  duration={1000}
+                >
+                  Internship
                 </Link>
               </li>
               <li className={classes.menuText}>
