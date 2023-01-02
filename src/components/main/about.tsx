@@ -1,7 +1,7 @@
 import { FC } from "react";
-import classes from "../../styles/global.module.css";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import classes from "../../styles/global.module.css";
 
 const About: FC = () => {
   const animation = useAnimation();
@@ -29,12 +29,13 @@ const About: FC = () => {
       <motion.div animate={animation} initial={{ opacity: 0, y: 100 }}>
         <div>
           <p className={classes.paragraph}>
-            I’m a 25 year old based in Gothenburg Sweden. In september 2020, I
+            I'm a 26 year old based in Gothenburg Sweden. In september 2020, I
             began the Front End Developer course at Medieinstitutet to pursuit a
-            career as a software developer.
+            career as a software developer. Today I am employed as a consultant
+            at the company FrontEdge IT AB in Gothenburg.
           </p>
           <p className={classes.paragraph}>
-            I’v always been creative but I never really knew how to use these
+            I'v always been creative but I never really knew how to use these
             skills. That was until I found my new passion of web development.
           </p>
         </div>
