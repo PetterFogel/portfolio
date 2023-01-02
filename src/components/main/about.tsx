@@ -31,8 +31,8 @@ const About: FC = () => {
           <p className={classes.paragraph}>
             I'm a 26 year old based in Gothenburg Sweden. In september 2020, I
             began the Front End Developer course at Medieinstitutet to pursuit a
-            career as a software developer. Today I am employed as a consultant
-            at the company FrontEdge IT AB in Gothenburg.
+            career as a software developer. Today I am employed as a software
+            developer consultant at the company FrontEdge IT AB in Gothenburg.
           </p>
           <p className={classes.paragraph}>
             I'v always been creative but I never really knew how to use these
