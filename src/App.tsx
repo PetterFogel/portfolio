@@ -1,11 +1,11 @@
 import { FC, Fragment, useState } from "react";
-import "./App.css";
-import MenuModal from "./components/navigation/menuModal";
-import Navigation from "./components/navigation/navigation";
-import MainContent from "./components/pages/mainContent";
+import { Navigation } from "./components/navigation/Navigation";
+import { MenuModal } from "./components/navigation/MenuModal";
+import { MainContent } from "./components/pages/MainContent";
 import classes from "./styles/global.module.css";
+import "./App.css";
 
-const App: FC = () => {
+export const App: FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const clickHandler = () => {
@@ -21,5 +21,3 @@ const App: FC = () => {
     </Fragment>
   );
 };
-
-export default App;

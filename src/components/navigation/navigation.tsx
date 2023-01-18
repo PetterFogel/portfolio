@@ -6,7 +6,7 @@ type NavigationProps = {
   onBurgerMenuClick: () => void;
 };
 
-const Navigation: FC<NavigationProps> = ({
+export const Navigation: FC<NavigationProps> = ({
   onBurgerMenuClick,
 }: NavigationProps) => {
   return (
@@ -28,5 +28,3 @@ const Navigation: FC<NavigationProps> = ({
     </header>
   );
 };
-
-export default Navigation;

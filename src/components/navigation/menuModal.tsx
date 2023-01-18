@@ -1,15 +1,15 @@
 import { FC } from "react";
-import classes from "../../styles/navigation.module.css";
 import { GrClose } from "react-icons/gr";
 import { animated, useSpring } from "react-spring";
 import { Link } from "react-scroll";
+import classes from "../../styles/navigation.module.css";
 
 type MenuModalProps = {
   isOpen: boolean;
   onCloseModalClick: () => void;
 };
 
-const MenuModal: FC<MenuModalProps> = ({
+export const MenuModal: FC<MenuModalProps> = ({
   isOpen,
   onCloseModalClick,
 }: MenuModalProps) => {
@@ -87,5 +87,3 @@ const MenuModal: FC<MenuModalProps> = ({
     </>
   );
 };
-
-export default MenuModal;

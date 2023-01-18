@@ -7,7 +7,7 @@ import Skills from "../main/skills";
 import classes from "../../styles/navigation.module.css";
 import { Internship } from "../main/internship";
 
-const MainContent: FC = () => {
+export const MainContent: FC = () => {
   return (
     <main className={classes.main}>
       <Intro />
@@ -19,5 +19,3 @@ const MainContent: FC = () => {
     </main>
   );
 };
-
-export default MainContent;
