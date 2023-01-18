@@ -1,9 +1,9 @@
 import { FC } from "react";
-import classes from "../../../styles/global.module.css";
-import ProjectItem from "./projectItem";
 import { ProjectListData } from "../../../data/projectListData";
+import { ProjectItem } from "./ProjectItem";
+import classes from "../../../styles/global.module.css";
 
-const Projects: FC = () => {
+export const Projects: FC = () => {
   return (
     <section className={classes.section} id="projects">
       <h2 className={classes.sectionTitle}>What I've done</h2>
@@ -31,5 +31,3 @@ const Projects: FC = () => {
     </section>
   );
 };
-
-export default Projects;

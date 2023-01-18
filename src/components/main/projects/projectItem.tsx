@@ -11,7 +11,9 @@ type ProjectItemProps = {
   project: Project;
 };
 
-const ProjectItem: FC<ProjectItemProps> = ({ project }: ProjectItemProps) => {
+export const ProjectItem: FC<ProjectItemProps> = ({
+  project,
+}: ProjectItemProps) => {
   return (
     <div className={classes.imageHolder}>
       <img className={classes.image} src={project.img} alt="movie-box" />
@@ -36,5 +38,3 @@ const ProjectItem: FC<ProjectItemProps> = ({ project }: ProjectItemProps) => {
     </div>
   );
 };
-
-export default ProjectItem;

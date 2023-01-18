@@ -3,7 +3,7 @@ import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import classes from "../../styles/global.module.css";
 
-const About: FC = () => {
+export const About: FC = () => {
   const animation = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0.8,
@@ -43,5 +43,3 @@ const About: FC = () => {
     </section>
   );
 };
-
-export default About;

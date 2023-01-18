@@ -1,10 +1,10 @@
-import classes from "../../styles/global.module.css";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { VscGithubInverted } from "react-icons/vsc";
-import { SiGmail } from "react-icons/si";
 import { FC } from "react";
+import { SiGmail } from "react-icons/si";
+import { VscGithubInverted } from "react-icons/vsc";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import classes from "../../styles/global.module.css";
 
-const Contact: FC = () => {
+export const Contact: FC = () => {
   return (
     <section id="contact" className={classes.section}>
       <div className={classes.contactContainer}>
@@ -54,5 +54,3 @@ const Contact: FC = () => {
     </section>
   );
 };
-
-export default Contact;

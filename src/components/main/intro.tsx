@@ -2,7 +2,7 @@ import classes from "../../styles/global.module.css";
 import { animated, useSpring } from "react-spring";
 import { FC } from "react";
 
-const IntroContent: FC = () => {
+export const Intro: FC = () => {
   const fadeIn = useSpring({
     from: {
       opacity: 0,
@@ -30,5 +30,3 @@ const IntroContent: FC = () => {
     </section>
   );
 };
-
-export default IntroContent;

@@ -1,10 +1,10 @@
 import { FC } from "react";
-import classes from "../../styles/global.module.css";
 import { skillList } from "../../data/skillsListData";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import classes from "../../styles/global.module.css";
 
-const Skills: FC = () => {
+export const Skills: FC = () => {
   const animation = useAnimation();
   const [ref, inView] = useInView({
     threshold: 0.8,
@@ -44,5 +44,3 @@ const Skills: FC = () => {
     </section>
   );
 };
-
-export default Skills;

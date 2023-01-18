@@ -1,11 +1,11 @@
 import { FC } from "react";
-import About from "../main/about";
-import Contact from "../main/contact";
-import Intro from "../main/intro";
-import Projects from "../main/projects/projects";
-import Skills from "../main/skills";
+import { Contact } from "../main/Contact";
+import { Skills } from "../main/Skills";
+import { Projects } from "../main/projects/Projects";
+import { Internship } from "../main/Internship";
+import { About } from "../main/About";
+import { Intro } from "../main/Intro";
 import classes from "../../styles/navigation.module.css";
-import { Internship } from "../main/internship";
 
 export const MainContent: FC = () => {
   return (
