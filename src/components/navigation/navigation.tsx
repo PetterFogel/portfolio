@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 import classes from "../../styles/navigation.module.css";
 
 type NavigationProps = {
-  onBurgerMenuClick: () => void;
+  onModalClick: () => void;
 };
 
 export const Navigation: FC<NavigationProps> = ({
-  onBurgerMenuClick,
+  onModalClick,
 }: NavigationProps) => {
   return (
     <header className={classes.header}>
@@ -16,7 +16,7 @@ export const Navigation: FC<NavigationProps> = ({
           Petter
         </Link>
       </h2>
-      <div className={classes.burgerMenu} onClick={onBurgerMenuClick}>
+      <div className={classes.burgerMenu} onClick={onModalClick}>
         <div className={classes.burgerBar1}></div>
         <div className={classes.burgerBar2}></div>
       </div>

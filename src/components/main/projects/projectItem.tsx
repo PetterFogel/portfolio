@@ -1,11 +1,8 @@
-import React, { FC } from "react";
-import classes from "../../../styles/global.module.css";
+import { FC } from "react";
 import { Project } from "../../../models/project";
+import classes from "../../../styles/global.module.css";
 
-const checkIfItemIsPoster = (project: string) => {
-  if (project === "poster") return true;
-  return false;
-};
+const checkIfItemIsPoster = (project: string) => project === "poster";
 
 type ProjectItemProps = {
   project: Project;
